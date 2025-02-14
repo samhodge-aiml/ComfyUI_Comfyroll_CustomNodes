@@ -29,7 +29,7 @@ packages = [
 "comfyui_comfyroll_custom_nodes.nodes" = "nodes"
 
 [tool.setuptools.package-data]
-"*" = ["**/*.js", "**/*.json"]
+"*" = ["**/*.js", "**/*.json", "**/*.ttf"]
 
 [project.entry-points."comfyui.custom_nodes"]
 comfyui_comfyroll_custom_nodes = "comfyui_comfyroll_custom_nodes"
