@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import os 
 from PIL import Image, ImageDraw, ImageOps, ImageFont
-from server import PromptServer, BinaryEventTypes
+from comfy.cmd.server import PromptServer, BinaryEventTypes
 
 from ..categories import icons
 from ..config import color_mapping, COLORS

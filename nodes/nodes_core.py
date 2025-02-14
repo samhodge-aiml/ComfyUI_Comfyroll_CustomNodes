@@ -14,7 +14,7 @@ from comfy.cmd import folder_paths as folder_paths
 import typing as tg
 import datetime
 import io
-from server import PromptServer, BinaryEventTypes
+from comfy.cmd.server import PromptServer, BinaryEventTypes
 #from comfy.nodes.base_nodes import common_ksampler
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
