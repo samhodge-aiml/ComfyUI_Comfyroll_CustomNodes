@@ -4,7 +4,7 @@
 #---------------------------------------------------------------------------------------------------------------------#
 
 import os
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import json
 import torch
 from .functions_json import load_styles_from_directory

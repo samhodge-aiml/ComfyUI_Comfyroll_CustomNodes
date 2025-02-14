@@ -7,7 +7,7 @@ import comfy.sd
 import torch
 import os
 import sys
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import random
 from PIL import Image, ImageEnhance
 import numpy as np
