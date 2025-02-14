@@ -12,6 +12,7 @@ try:
     from .nodes.nodes_legacy import *
 except ImportError:
     print("\033[34mComfyroll Studio: \033[92mFailed to load Essential nodes\033[0m")
+    raise
 
 try:
     from .nodes.nodes_graphics_matplot import *
@@ -22,6 +23,7 @@ try:
     from .nodes.nodes_graphics_pattern import *
 except ImportError:
     print("\033[34mComfyroll Studio: \033[92mFailed to load Graphics nodes\033[0m")
+    raise
 
 try:
     from .nodes.nodes_animation_interpolation import *
@@ -34,7 +36,8 @@ try:
     from .nodes.nodes_animation_cyclers import *
 except ImportError:
     print("\033[34mComfyroll Studio: \033[92mFailed to load Animation nodes\033[0m")
-    
+    raise
+
 try:
     from .nodes.nodes_utils_logic import *
     from .nodes.nodes_utils_index import *
@@ -44,7 +47,8 @@ try:
     from .nodes.nodes_utils_other import *
 except ImportError:
     print("\033[34mComfyroll Studio: \033[92mFailed to load Utility nodes\033[0m")
-
+    raise
+    
 NODE_CLASS_MAPPINGS = { 
     ### Core Nodes
     "CR Image Output": CR_ImageOutput,
