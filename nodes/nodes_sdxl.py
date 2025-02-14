@@ -8,8 +8,9 @@ import numpy as np
 from PIL import Image, ImageEnhance
 import os
 import sys
-import folder_paths
-from nodes import MAX_RESOLUTION, ControlNetApply
+from comfy.cmd import folder_paths as folder_paths
+from comfy.nodes.common import MAX_RESOLUTION
+from comfy.nodes.base_nodes import ControlNetApply
 from ..categories import icons
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))

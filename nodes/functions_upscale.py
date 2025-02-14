@@ -14,7 +14,7 @@ from comfy_extras.chainner_models import model_loading
 from comfy import model_management
 import numpy as np
 import comfy.utils
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 from PIL import Image
 
 # PIL to Tensor

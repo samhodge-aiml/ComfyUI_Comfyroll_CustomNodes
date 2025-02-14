@@ -6,8 +6,8 @@
 import comfy.sd
 import os
 import sys
-import folder_paths
-from nodes import LoraLoader
+from comfy.cmd import folder_paths as folder_paths
+from comfy.nodes.base_nodes import LoraLoader
 from .functions_animation import keyframe_scheduler, prompt_scheduler
 from ..categories import icons
 

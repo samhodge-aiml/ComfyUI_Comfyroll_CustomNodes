@@ -7,7 +7,7 @@ import os
 import sys
 import comfy.sd
 import comfy.utils
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import hashlib
 from random import random, uniform
 from ..categories import icons

@@ -5,7 +5,7 @@
 
 import comfy.sd
 import comfy.model_management
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 from ..categories import icons
 
 #---------------------------------------------------------------------------------------------------------------------#                        

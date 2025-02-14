@@ -7,7 +7,7 @@ import comfy.sd
 import torch
 import os
 import sys
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 from ..categories import icons
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))

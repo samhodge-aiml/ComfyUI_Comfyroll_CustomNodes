@@ -10,13 +10,13 @@ import torch
 import numpy as np
 import os
 import sys
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import math
 import json
 import csv
 from typing import List
 from PIL.PngImagePlugin import PngInfo
-from nodes import SaveImage
+from comfy.nodes.base_nodes import SaveImage
 import glob
 from ..categories import icons
 

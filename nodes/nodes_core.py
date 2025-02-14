@@ -10,12 +10,12 @@ import sys
 import csv
 import comfy.sd
 import json
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import typing as tg
 import datetime
 import io
 from server import PromptServer, BinaryEventTypes
-#from nodes import common_ksampler
+#from comfy.nodes.base_nodes import common_ksampler
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 from pathlib import Path

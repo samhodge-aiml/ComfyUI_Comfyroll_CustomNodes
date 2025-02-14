@@ -1,0 +1,35 @@
+[project]
+name = "comfyui-comfyroll"
+description = "Nodes related to comfyroll"
+version = "1.76"
+license = { file = "LICENSE" }
+
+
+[project.urls]
+Repository = "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+
+#  Used by Comfy Registry https://comfyregistry.org
+[tool.comfy]
+PublisherId = "Suzie1"
+DisplayName = "ComfyUI_Comfyroll_CustomNodes"
+Icon = ""
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "comfyui_comfyroll_custom_nodes",
+    "comfyui_comfyroll_custom_nodes.nodes"
+]
+
+[tool.setuptools.package-dir]
+"comfyui_comfyroll_custom_nodes" = "."
+"comfyui_comfyroll_custom_nodes.nodes" = "nodes"
+
+[tool.setuptools.package-data]
+"*" = ["**/*.js", "**/*.json"]
+
+[project.entry-points."comfyui.custom_nodes"]
+comfyui_comfyroll_custom_nodes = "comfyui_comfyroll_custom_nodes"

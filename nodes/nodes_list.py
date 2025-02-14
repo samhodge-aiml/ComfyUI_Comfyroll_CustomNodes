@@ -7,7 +7,7 @@ import torch
 import numpy as np
 import os
 import sys
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 import re
 import comfy.sd
 import csv

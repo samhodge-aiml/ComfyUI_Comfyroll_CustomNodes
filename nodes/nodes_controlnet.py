@@ -7,8 +7,8 @@ import os
 import sys
 import comfy.controlnet
 import comfy.sd
-import folder_paths
-from nodes import ControlNetApplyAdvanced
+from comfy.cmd import folder_paths as folder_paths
+from comfy.nodes.base_nodes import ControlNetApplyAdvanced
 from ..categories import icons
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))

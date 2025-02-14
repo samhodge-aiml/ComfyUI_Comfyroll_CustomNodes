@@ -8,7 +8,7 @@ import numpy as np
 import os
 import sys
 import io
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 from PIL import Image
 from ..categories import icons
 

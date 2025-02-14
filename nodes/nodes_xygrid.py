@@ -5,7 +5,7 @@
 # based on https://github.com/LEv145/images-grid-comfy-plugin
 
 import os
-import folder_paths
+from comfy.cmd import folder_paths as folder_paths
 from PIL import Image, ImageFont
 import torch
 import numpy as np
